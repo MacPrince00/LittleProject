@@ -1,0 +1,106 @@
+.outer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+.heading {
+  background: linear-gradient( to bottom, rgb(29, 27, 27) , white);
+  margin-top: -15px;
+  height: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner{
+  width: 1000px;
+  height: 700px;
+  background: linear-gradient( to right, rgb(214, 16, 148) , rgb(1, 1, 92));
+  font-family: arial;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-color: rgb(34, 32, 32);
+}
+.scoreLine{
+  width: 300px;
+  height: 100px;
+  border: dotted;
+  border-color: white;
+  border-width: 5px;
+  background-color: transparent;
+  color: goldenrod;
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+
+}
+.scoreBoard{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.user{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+}
+.myMoves{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 100px;
+}
+.Js-Final{
+  color: lightgrey;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+.reset{
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+.resetbutton{
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border: solid;
+  border-color: gray;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.pictures{
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.myImg{
+  border-radius: 50%;
+  border: solid;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.action{
+  color: green;
+}
+.action2{
+  color: red;
+}

@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+}
+.center{
+  width: 700px;
+  height: 500px;
+  background-color: rgb(19, 1, 119);
+  display: flex;
+  align-items: center;
+  border-radius: 70px;
+  flex-direction: column;
+  margin-top: 140px;
+}
+.mainTite{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.timer{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(165, 165, 165);
+  margin-top: 40px;
+  border-radius: 50%;
+  border: rgb(158, 134, 0) solid 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: Times New Roman;
+}
+.controller, .controller1{
+  background-color: goldenrod;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.controller1{
+  margin-left: 50px;
+}
