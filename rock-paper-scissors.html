@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/rock-paper-scissors.css">
+  </head>
+  <body onkeydown="mykeys()">
+    <div class="outer"><div class="inner">
+      <div class="heading">ROCK PAPER SCISSORS</div>
+      <div class="scoreBoard">
+        <div class="user">User</div>
+        <div class="scoreLine">
+          <div class="userScore">0</div>
+          <div>:</div>
+          <div class="compScore">0</div>
+        </div>
+        <div class="user">Comp</div>
+      </div>
+      <div><p class="Js-Final">Pick a move..</p></div>
+      <div class="myMoves">
+        <button onclick="displayMove()" class="Js-Rock myImg"><img class="pictures" src="Images/rock-paper-scissors-img/download.png"></button>
+        <button onclick="displayMove1()" class="Js-Paper myImg"><img class="pictures" src="Images/rock-paper-scissors-img/paper.png"></button>
+        <button onclick="displayMove2()" class="Js-Scissors myImg"><img class="pictures" src="Images/rock-paper-scissors-img/victory-hand.png"></button>
+      </div>
+      <div class="reset"><button class="resetbutton" onclick="deleteAll()">Reset Score</button></div>
+      
+    </div></div>
+    
+    <script src="javascript/rock-paper-scissors.js"></script>
+  </body>
+</html>
